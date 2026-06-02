@@ -11,5 +11,5 @@ class Solution:
             # vòng lặp j : chọn phần tử đối
             for j in range (i + 1 , len(nums)):
                 if nums[i] == nums[i + 1]:
-                    return True;
-        return False;
+                    return True
+        return False
